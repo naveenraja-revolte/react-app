@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment (never commit secrets)
+.env
+.env.*
+!example.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Test & coverage
+coverage/
+.nyc_output/
+
+# Caches
+.cache/
+.eslintcache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+
+# AI agent local config
+.gemini/
+.claude/settings.local.json
